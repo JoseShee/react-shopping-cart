@@ -1,15 +1,11 @@
 config:
-  target: 'http://localhost:8001'
+  target: "http://localhost:8001"
   phases:
-  - duration: 10
-    arrivalRate: 10
+  - duration: 60  # create 50 virtual users every second for 1 minutes(60 seconds) -o/p 3000 scenarios
+    arrivalRate: 50
 scenarios:
-- flow:
+- name: "Launch the Shopping cart products" 
+  flow:
   - get:
-      # add the url you need to send get request
-      url: "/api/products"
-      capture:
-      # capturing responce using reg expression
-      - regexp: "[^]*"
-        as: "response"
-#  - log: "response= {{response}}"
+      url: "/products/"
+  - think: 3
