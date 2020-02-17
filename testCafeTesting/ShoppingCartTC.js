@@ -2,6 +2,7 @@ import { Selector } from 'testcafe';
 
 fixture `ShoppingCart`
     .page `localhost:3000`;
+//      .page `http:\\google.com`;
 
 //Add Product to Cart
 test('AddRemoveProduct', async t => {

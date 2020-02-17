@@ -1,12 +1,9 @@
-19:19:48 (5728) INFO ConfigReader Using stryker.conf.js in the current working directory.
-19:19:49 (5728) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
-19:19:48 (5728) DEBUG ConfigReader Loading config stryker.conf.js
-19:19:48 (5728) DEBUG ConfigReader Loaded config: {
+02:33:47 (15936) INFO ConfigReader Using stryker.conf.js in the current working directory.
+02:33:48 (15936) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
+02:33:47 (15936) DEBUG ConfigReader Loading config stryker.conf.js
+02:33:47 (15936) DEBUG ConfigReader Loaded config: {
   "mutate": [
-    "{src,lib}/**/*.js?(x)",
-    "!{src,lib}/**/__tests__/**/*.js?(x)",
-    "!{src,lib}/**/?(*.)+(spec|test).js?(x)",
-    "!{src,lib}/**/*+(Spec|Test).js?(x)"
+    "test/*.js"
   ],
   "logLevel": "debug",
   "fileLogLevel": "trace",
@@ -20,7 +17,7 @@
     "clear-text",
     "progress"
   ],
-  "coverageAnalysis": "test",
+  "coverageAnalysis": "perTest",
   "testRunner": "mocha",
   "mutator": "javascript",
   "transpilers": [],
@@ -41,72 +38,22 @@
   "testFramework": "mocha",
   "configFile": "stryker.conf.js"
 }
-19:19:48 (5728) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator
-19:19:48 (5728) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
-19:19:48 (5728) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\javascript-mutator" (matched with expression @stryker-mutator/*)
-19:19:48 (5728) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
-19:19:48 (5728) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
-19:19:48 (5728) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\html-reporter
-19:19:48 (5728) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\javascript-mutator
-19:19:48 (5728) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-framework
-19:19:48 (5728) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-runner
-19:19:48 (5728) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\core\src\reporters\index.js
-19:19:48 (5728) WARN MochaOptionsLoader DEPRECATED: Mocha < 6 detected. Please upgrade to at least Mocha version 6.
-19:19:48 (5728) DEBUG MochaOptionsLoader Mocha < 6 detected. Using custom logic to parse mocha options
-19:19:49 (5728) DEBUG MochaOptionsLoader No mocha opts file found, not loading additional mocha options (mochaOptions.opts was not defined).
-19:24:22 (8280) INFO ConfigReader Using stryker.conf.js in the current working directory.
-19:24:23 (8280) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
-19:24:22 (8280) DEBUG ConfigReader Loading config stryker.conf.js
-19:24:22 (8280) DEBUG ConfigReader Loaded config: {
-  "mutate": [
-    "{src,lib}/**/*.js?(x)",
-    "!{src,lib}/**/__tests__/**/*.js?(x)",
-    "!{src,lib}/**/?(*.)+(spec|test).js?(x)",
-    "!{src,lib}/**/*+(Spec|Test).js?(x)"
+02:33:47 (15936) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator
+02:33:47 (15936) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+02:33:47 (15936) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\javascript-mutator" (matched with expression @stryker-mutator/*)
+02:33:47 (15936) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+02:33:47 (15936) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+02:33:47 (15936) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\html-reporter
+02:33:47 (15936) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\javascript-mutator
+02:33:48 (15936) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\mocha-framework
+02:33:48 (15936) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\mocha-runner
+02:33:48 (15936) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\mochaApiTest\node_modules\@stryker-mutator\core\src\reporters\index.js
+02:33:48 (15936) DEBUG MochaOptionsLoader Mocha >= 6 detected. Using mocha's `loadOptions` to load mocha options
+02:33:48 (15936) TRACE MochaOptionsLoader Mocha: loadOptions([]) => {"_":[],"diff":true,"config":false,"package":false,"opts":false,"extension":["js"],"reporter":"spec","R":"spec","slow":75,"s":75,"timeout":2000,"t":2000,"timeouts":2000,"ui":"bdd","u":"bdd","watch-ignore":["node_modules",".git"]}
+02:33:48 (15936) DEBUG MochaOptionsLoader Loaded options: {
+  "extension": [
+    "js"
   ],
-  "logLevel": "debug",
-  "fileLogLevel": "trace",
-  "timeoutMS": 5000,
-  "timeoutFactor": 1.5,
-  "plugins": [
-    "@stryker-mutator/*"
-  ],
-  "reporters": [
-    "html",
-    "clear-text",
-    "progress"
-  ],
-  "coverageAnalysis": "perTest",
-  "testRunner": "test",
-  "mutator": "javascript",
-  "transpilers": [],
-  "maxConcurrentTestRunners": null,
-  "symlinkNodeModules": true,
-  "thresholds": {
-    "break": null,
-    "high": 80,
-    "low": 60
-  },
-  "allowConsoleColors": true,
-  "dashboard": {
-    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
-    "reportType": "mutationScore"
-  },
-  "tempDirName": ".stryker-tmp",
-  "packageManager": "npm",
-  "testFramework": "mocha",
-  "configFile": "stryker.conf.js"
+  "timeout": 2000,
+  "ui": "bdd"
 }
-19:24:22 (8280) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator
-19:24:22 (8280) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
-19:24:22 (8280) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\javascript-mutator" (matched with expression @stryker-mutator/*)
-19:24:22 (8280) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
-19:24:22 (8280) DEBUG PluginLoader Loading plugin "C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
-19:24:22 (8280) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\html-reporter
-19:24:22 (8280) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\javascript-mutator
-19:24:23 (8280) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-framework
-19:24:23 (8280) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\mocha-runner
-19:24:23 (8280) DEBUG PluginLoader Loading plugins C:\Users\c735395\Downloads\Sheeba_Assignment\newProj\react-shopping-cart\node_modules\@stryker-mutator\core\src\reporters\index.js
-19:24:23 (8280) WARN MochaOptionsLoader DEPRECATED: Mocha < 6 detected. Please upgrade to at least Mocha version 6.
-19:24:23 (8280) DEBUG MochaOptionsLoader Mocha < 6 detected. Using custom logic to parse mocha options
-19:24:23 (8280) DEBUG MochaOptionsLoader No mocha opts file found, not loading additional mocha options (mochaOptions.opts was not defined).

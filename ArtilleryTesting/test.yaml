@@ -4,7 +4,7 @@ config:
   - duration: 60  # create 50 virtual users every second for 1 minutes(60 seconds) -o/p 3000 scenarios
     arrivalRate: 50
 scenarios:
-- name: "Launch the Shopping cart products" 
+- name: "Launch the Shopping cart products"
   flow:
   - get:
       url: "/products/"
